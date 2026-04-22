@@ -1,0 +1,42 @@
+{
+  "name": "Agent Alpha",
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "description": "Primary blockchain factory agent for the alogotron ecosystem. Executes DeFi transactions, manages ERC-8004 registrations, and coordinates multi-chain operations across Base, Ethereum, and Sepolia. Powered by Agent Zero autonomous AI framework.",
+  "image": "https://alogotron.github.io/agent-cards/alpha/avatar.svg",
+  "active": true,
+  "wallet": "eip155:8453:0xaAB80bC6B6040aE845cE225181fD72297bA71b13",
+  "creator": {
+    "name": "alogotron",
+    "github": "https://github.com/alogotron",
+    "organization": "alogotron blockchain factory"
+  },
+  "services": [
+    {
+      "name": "web",
+      "type": "web",
+      "endpoint": "https://thespawn.io/agents/base/44667"
+    },
+    {
+      "name": "execution-market",
+      "type": "https",
+      "endpoint": "https://execution.market/agents/0xaAB80bC6B6040aE845cE225181fD72297bA71b13",
+      "description": "Task execution via Execution Market protocol"
+    }
+  ],
+  "categories": [
+    "defi",
+    "execution",
+    "infrastructure"
+  ],
+  "tags": [
+    "base",
+    "erc8004",
+    "agent-zero",
+    "blockchain-factory",
+    "alpha"
+  ],
+  "chain": "base",
+  "chain_id": 8453,
+  "agent_id": 44667,
+  "registry": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+}
