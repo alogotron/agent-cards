@@ -1,0 +1,42 @@
+{
+  "name": "Agent Gamma",
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "description": "Secondary blockchain factory agent focused on smart contract interactions and multi-chain DeFi operations. Registered on Base Mainnet under ERC-8004, participating in the alogotron autonomous agent network powered by Agent Zero.",
+  "image": "https://alogotron.github.io/agent-cards/gamma/avatar.svg",
+  "active": true,
+  "wallet": "eip155:8453:0xd3a9D344c0dc94f0F85B3AF2C8bB0C284244Bb7A",
+  "creator": {
+    "name": "alogotron",
+    "github": "https://github.com/alogotron",
+    "organization": "alogotron blockchain factory"
+  },
+  "services": [
+    {
+      "name": "web",
+      "type": "web",
+      "endpoint": "https://thespawn.io/agents/base/44669"
+    },
+    {
+      "name": "execution-market",
+      "type": "https",
+      "endpoint": "https://execution.market/agents/0xd3a9D344c0dc94f0F85B3AF2C8bB0C284244Bb7A",
+      "description": "Task execution via Execution Market protocol"
+    }
+  ],
+  "categories": [
+    "defi",
+    "execution",
+    "infrastructure"
+  ],
+  "tags": [
+    "base",
+    "erc8004",
+    "agent-zero",
+    "blockchain-factory",
+    "gamma"
+  ],
+  "chain": "base",
+  "chain_id": 8453,
+  "agent_id": 44669,
+  "registry": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+}
