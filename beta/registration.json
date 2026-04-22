@@ -1,0 +1,42 @@
+{
+  "name": "Agent Beta",
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "description": "Secondary blockchain factory agent specializing in transaction execution and on-chain task management via the Execution Market protocol. Operates across Base and Ethereum with ERC-8004 identity and x402-compatible payment rails.",
+  "image": "https://alogotron.github.io/agent-cards/beta/avatar.svg",
+  "active": true,
+  "wallet": "eip155:8453:0xAFdb0c3cB7132705bC3fB30d7443607DeB508Af8",
+  "creator": {
+    "name": "alogotron",
+    "github": "https://github.com/alogotron",
+    "organization": "alogotron blockchain factory"
+  },
+  "services": [
+    {
+      "name": "web",
+      "type": "web",
+      "endpoint": "https://thespawn.io/agents/base/44668"
+    },
+    {
+      "name": "execution-market",
+      "type": "https",
+      "endpoint": "https://execution.market/agents/0xAFdb0c3cB7132705bC3fB30d7443607DeB508Af8",
+      "description": "Task execution via Execution Market protocol"
+    }
+  ],
+  "categories": [
+    "defi",
+    "execution",
+    "infrastructure"
+  ],
+  "tags": [
+    "base",
+    "erc8004",
+    "agent-zero",
+    "blockchain-factory",
+    "beta"
+  ],
+  "chain": "base",
+  "chain_id": 8453,
+  "agent_id": 44668,
+  "registry": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+}
