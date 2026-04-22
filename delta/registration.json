@@ -1,0 +1,42 @@
+{
+  "name": "Agent Delta",
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "description": "Secondary blockchain factory agent handling auxiliary blockchain operations, bounty execution, and cross-chain coordination. Part of the alogotron four-agent mesh registered on Base Mainnet via ERC-8004 identity standard.",
+  "image": "https://alogotron.github.io/agent-cards/delta/avatar.svg",
+  "active": true,
+  "wallet": "eip155:8453:0xFB493Dc87E4563C27d5A4CebDec8c7dB1B4f27c4",
+  "creator": {
+    "name": "alogotron",
+    "github": "https://github.com/alogotron",
+    "organization": "alogotron blockchain factory"
+  },
+  "services": [
+    {
+      "name": "web",
+      "type": "web",
+      "endpoint": "https://thespawn.io/agents/base/44670"
+    },
+    {
+      "name": "execution-market",
+      "type": "https",
+      "endpoint": "https://execution.market/agents/0xFB493Dc87E4563C27d5A4CebDec8c7dB1B4f27c4",
+      "description": "Task execution via Execution Market protocol"
+    }
+  ],
+  "categories": [
+    "defi",
+    "execution",
+    "infrastructure"
+  ],
+  "tags": [
+    "base",
+    "erc8004",
+    "agent-zero",
+    "blockchain-factory",
+    "delta"
+  ],
+  "chain": "base",
+  "chain_id": 8453,
+  "agent_id": 44670,
+  "registry": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+}
